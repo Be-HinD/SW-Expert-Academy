@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('1206. [S\input.txt', 'r')
-
 for tc in range(1, 11):
     num = int(input())
     height = list(map(int, input().split()))
@@ -24,3 +21,7 @@ for tc in range(1, 11):
             right = 0
             sum = 0
     print('#{} {}'.format(tc, result))
+
+"""
+단순 조건문
+"""
