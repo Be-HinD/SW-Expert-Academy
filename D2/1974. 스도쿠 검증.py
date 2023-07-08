@@ -1,3 +1,5 @@
+import sys
+sys.stdin = open('input.txt', 'r')
 def typetest(M):
     for i in range(9):
         row_num = [0] * 10

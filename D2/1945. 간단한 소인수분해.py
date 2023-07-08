@@ -1,6 +1,9 @@
+import sys
+sys.stdin = open('input.txt', 'r')
 def factorization(x):
     d = 2
     while d <= x:
+        print(d)
         if x % d == 0:
             result[d] += 1
             x = x / d
